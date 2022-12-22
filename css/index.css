@@ -1,0 +1,22 @@
+.jumbotron {
+    margin-top: 0px !important;
+    padding: 10px;
+    background-image: url(../images/bg-img.svg);
+}
+
+nav a {
+    color: white !important;
+}
+
+.herogrid {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.heading,.subHeading, .content {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-weight: 400;
+}
+
