@@ -6,8 +6,12 @@
 
 nav a {
     color: white !important;
+      
 }
 
+.nav-link {
+    text-decoration: underline; 
+}
 .herogrid {
     margin-top: 50px;
     padding: 20px;
