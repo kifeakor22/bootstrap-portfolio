@@ -38,5 +38,16 @@ p {
 .navbar-toggler-icon {
     background-color: white;
   }
+
   
   
+.sectionHeading {
+    
+    font-weight: bolder;
+    padding-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-outline-secondary {
+    border-color: black;
+  }  
