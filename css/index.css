@@ -13,12 +13,12 @@ nav a {
     text-decoration: underline; 
 }
 .herogrid {
-    margin-top: 50px;
-    padding: 20px;
+    margin-top: 30px;
+    padding: 30px;
 }
 
 .heading,.subHeading, .content {
-    text-align: center;
+    text-align: left;
     color: white;
     padding: 5px;
     font-weight: 400;
@@ -43,10 +43,8 @@ p {
     background-color: white;
   }
 
-  
-  
-.sectionHeading {
-    
+.sectionHeading {  
+    text-align: center;
     font-weight: bolder;
     padding-bottom: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -55,3 +53,19 @@ p {
 .btn-outline-secondary {
     border-color: black;
   }  
+
+  #profilePic img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    float: right;
+    padding: 3px;
+    margin: 30px;
+    margin-right: 100px;
+    border: 5px solid white;
+  }
+.cardContainer {
+    
+}
+  
+  
