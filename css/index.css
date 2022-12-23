@@ -63,7 +63,6 @@ h1{
 
 .work h2 {
     color: black;
-    background-color: ;
 }
 
 p {
@@ -99,6 +98,34 @@ p {
 .blueText {
     color: rgb(65, 110, 235);
 }
+
+.skillsHeading {
+    margin: 30px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-weight: 900;
+}
+
+.skillsbody {
+    margin: 5px;
+    padding: 10px;
+}
+
+.skills {
+    margin: 2px;
+    padding: 20px;
+    background-color: rgb(229, 234, 241);
+}
+
+.progress-bar {
+    background-color: #18191a;
+  }
+
+  .skills img {
+    width: 100px;
+  }
+  
 
 @media only screen and (max-width: 480px) {
     .heading {
