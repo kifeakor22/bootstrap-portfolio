@@ -2,8 +2,8 @@
 .jumbotron {
     margin-top: 0px !important;
     padding: 10px;
-   background-color: rgb(12, 12, 12);
-   opacity: 0.9;
+    background-color: rgb(12, 12, 12);
+    opacity: 0.9;
 }
 .navbar {
     background-color: black;
@@ -176,11 +176,12 @@ p {
       } 
       .about {
         display: flex;
-        flex-direction: column;
-        justify-content:space-between;
+        flex-direction: column-reverse;
+        justify-content:center;
         background-color: #282829;
         margin: 0px;
         padding: 5px;
+        text-align: center;
       }
         .aboutMePic img {
             border-radius: 50%;
@@ -189,7 +190,7 @@ p {
             border: 5px solid white;
           }
           .aboutmeP {
-            text-align: left;
+            text-align: center;
             padding: 1px;
             color: white;
       }
