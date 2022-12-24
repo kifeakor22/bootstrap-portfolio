@@ -13,12 +13,15 @@ nav a {
     color: white !important;
       
 }
+.bt-cta {
+    background-color: rgb(224, 96, 145);
+}
 
 .nav-link {
     text-decoration: underline; 
 }
 .herogrid {
-    padding: 30px;
+    padding: 50px;
 }
 
 .heading {
@@ -47,7 +50,7 @@ nav a {
 .heading,.subHeading, .content {
     text-align: left;
     color: white;
-    padding: 5px;
+    padding: 3px;
     font-weight: 400;
 }
 
@@ -118,7 +121,7 @@ p {
 
 .skills {
     margin: 2px;
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(229, 234, 241);
 }
 
@@ -209,9 +212,9 @@ p {
         padding: 5px;
         text-align: center;
       }
-        .aboutMePic img {
+    .aboutMePic img {
             border-radius: 50%;
-            height: 200px;
+            height: 50px;
             width: auto;
             padding: 3px;
             border: 5px solid white;
