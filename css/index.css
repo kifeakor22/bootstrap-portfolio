@@ -155,7 +155,7 @@ p {
     padding: 60px;
   }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 780px) {
     .heading {
         font-family: monospace;
         overflow: hidden;
@@ -194,3 +194,4 @@ p {
             padding: 1px;
             color: white;
       }
+    }
