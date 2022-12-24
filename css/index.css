@@ -99,13 +99,14 @@ p {
     color: rgb(65, 110, 235);
 }
 
-.skillsHeading {
+.skillsHeading, .aboutMeHeading {
     margin: 30px;
     padding: 5px;
     text-align: center;
     font-weight: bolder;
     font-weight: 900;
 }
+
 
 .skillsbody {
     margin: 5px;
@@ -126,7 +127,33 @@ p {
     width: 100px;
     padding: 5px;
   }
+
+  .aboutMePic img {
+    border-radius: 50%;
+    height: 300px;
+    width: auto;
+    border: 5px solid white;
+    margin-right: 30px;
+  }
+
+  .aboutmeP {
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+  }
+.aboutmeP h2 {
+    color: white;
+    text-decoration:underline 2px solid white ;
+}
   
+  .about {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #282829;
+    margin: 100px;
+    padding: 60px;
+  }
 
 @media only screen and (max-width: 480px) {
     .heading {
@@ -147,4 +174,22 @@ p {
         from, to { border-color: transparent }
         50% { border-color: rgb(233, 84, 196) }
       } 
-}
+      .about {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        background-color: #282829;
+        margin: 0px;
+        padding: 5px;
+      }
+        .aboutMePic img {
+            border-radius: 50%;
+            height: 200px;
+            width: auto;
+            border: 5px solid white;
+          }
+          .aboutmeP {
+            text-align: left;
+            padding: 1px;
+            color: white;
+      }
