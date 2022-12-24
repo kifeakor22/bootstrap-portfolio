@@ -58,6 +58,9 @@ h1{
 .card {
     color: black;
     text-align: center;
+    padding: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 
 }
 
@@ -171,6 +174,9 @@ p {
     margin: 10px;
     padding: 10px;
     text-align: center;
+  }
+  a:hover {
+    box-shadow: 0 0 10px rgb(235, 119, 219); 
   }
 
   
