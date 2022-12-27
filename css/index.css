@@ -1,3 +1,6 @@
+:root {
+    --siteColor: rgb(224, 96, 145);
+}
 
 .jumbotron {
     margin-top: 0px !important;
@@ -14,7 +17,7 @@ nav a {
       
 }
 .bt-cta {
-    background-color: rgb(224, 96, 145);
+    background-color: var(--siteColor);
 }
 
 .nav-link {
@@ -27,7 +30,7 @@ nav a {
 .heading {
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: solid rgb(230, 112, 194); /* The typwriter cursor */
+    border-right: solid var(--siteColor); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
@@ -44,7 +47,7 @@ nav a {
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgb(233, 84, 196) }
+    50% { border-color: var(--siteColor) }
   }
 
 .heading,.subHeading, .content {
@@ -55,7 +58,7 @@ nav a {
 }
 
 h1{
-    color: rgb(224, 96, 145);
+    color: var(--siteColor);
 }
 
 
@@ -180,7 +183,7 @@ p {
   }
  a:hover {
     transform: scale(1.2);
-    background-color: rgb(245, 132, 198); 
+    box-shadow: 0 0 10px var(--siteColor); 
   }
 
 /* to make each card container bigger on hoover */
@@ -194,7 +197,7 @@ p {
     .heading {
         font-family: monospace;
         overflow: hidden;
-        border-right: .15em solid rgb(230, 112, 194);
+        border-right: .15em solid var(--siteColor);
         white-space: pre-wrap;
         margin: 0 auto;
         letter-spacing: .15em;
@@ -207,7 +210,7 @@ p {
       }
      @keyframes blink-caret {
         from, to { border-color: transparent }
-        50% { border-color: rgb(233, 84, 196) }
+        50% { border-color: var(--siteColor) }
       } 
       .about {
         display: flex;
