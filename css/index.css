@@ -58,18 +58,22 @@ h1{
     color: rgb(224, 96, 145);
 }
 
+
+.cardContainer {
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+
 .card {
     color: black;
     text-align: center;
+    margin: 10px;
     padding: 20px;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 
-}
-.cardContainer {
-    margin: 10px;
-    padding: 5px;
-    
 }
 
 .sectionHeading {
@@ -85,7 +89,7 @@ p {
     background-color: rgb(53, 52, 52);
   }
 
-.sectionHeading {  
+.sectionHeading, .skillsHeading {  
     text-align: center;
     font-weight: bolder;
     padding-bottom: 40px;
@@ -110,14 +114,6 @@ p {
     color: rgb(65, 110, 235);
 }
 
-.skillsHeading, .aboutMeHeading {
-    margin: 30px;
-    padding: 5px;
-    text-align: center;
-    font-weight: bolder;
-    font-weight: 900;
-}
-
 
 .skillsbody {
     margin: 5px;
@@ -125,7 +121,6 @@ p {
 }
 
 .skills {
-    margin: 2px;
     padding: 10px;
     background-color: rgb(229, 234, 241);
 }
@@ -141,7 +136,7 @@ p {
 
   .aboutMePic img {
     border-radius: 50%;
-    height: 300px;
+    height: 180px;
     width: auto;
     border: 5px solid white;
     padding: 3px;
@@ -163,7 +158,7 @@ p {
     justify-content: space-evenly;
     background-color: #282829;
     margin: 100px;
-    padding: 60px;
+    padding: 80px;
   }
   .contact {
     text-align: center;
@@ -183,9 +178,15 @@ p {
     padding: 10px;
     text-align: center;
   }
-  a:hover {
-    box-shadow: 0 0 10px rgb(235, 119, 219); 
+ a:hover {
+    transform: scale(1.2);
+    background-color: rgb(245, 132, 198); 
   }
+
+/* to make each card container bigger on hoover */
+.cardContainer:hover {
+    transform: scale(1.2);
+}
 
   
 
