@@ -156,7 +156,7 @@ p {
   }
 .aboutmeP h2 {
     color: white;
-    text-decoration:underline 2px solid white ;
+    text-decoration:underline 2px solid var(--siteColor);
 }
   
   .about {
@@ -192,7 +192,12 @@ p {
 /* to make each card container bigger on hoover */
 .cardContainer:hover {
     transform: scale(1.2);
+
 }
+
+hr {
+    border-color: var(--siteColor);
+  }
 
  /* media queries */ 
 
