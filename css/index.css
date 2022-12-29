@@ -78,7 +78,6 @@ h1{
     padding: 20px;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-
 }
 
 .sectionHeading {
@@ -225,21 +224,29 @@ hr {
         flex-direction: column-reverse;
         justify-content:center;
         background-color: #282829;
-        margin: 0px;
+        margin: 10px;
         padding: 5px;
         text-align: center;
       }
-    .aboutMePic img {
+      .aboutMePic img {
             border-radius: 50%;
             height: 200px;
             width: auto;
             padding: 3px;
-            border: 5px solid white;
+            border: 5px solid var(--siteColor);
             justify-content: center;
+            margin-top: 20px;
           }
-          .aboutmeP {
+        .aboutmeP {
             text-align: center;
             padding: 1px;
             color: white;
       }
+      #profilePic {
+        justify-content: center;
+        margin: 0px;
+        padding-top: 0px;
+      }
+  
+      
     }
