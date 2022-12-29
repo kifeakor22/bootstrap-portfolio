@@ -53,7 +53,7 @@ nav a {
   }
 
 .heading,.subHeading, .content {
-    text-align: left;
+    text-align: center;
     color: white;
     padding: 3px;
     font-weight: 400;
