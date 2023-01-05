@@ -117,6 +117,9 @@ p {
 .blueText {
     color: rgb(65, 110, 235);
 }
+.bt-cta, .btn-outline-secondary {
+  border-radius:20px ;
+}
 
 
 .skillsbody {
