@@ -246,6 +246,7 @@ hr {
             color: white;
       }
       #profilePic {
+        display: none;
         justify-content: center;
         margin: 0px;
         padding-top: 0px;
