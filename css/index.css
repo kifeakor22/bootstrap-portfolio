@@ -85,7 +85,8 @@ h1{
 }
 
 p {
-    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
