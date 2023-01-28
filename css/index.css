@@ -202,6 +202,12 @@ hr {
     border-color: var(--siteColor);
   }
 
+  .skillsCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
  /* media queries */ 
 
 @media only screen and (max-width: 789px) {
@@ -232,6 +238,10 @@ hr {
         padding: 5px;
         text-align: center;
       }
+  .skillsCard {
+    display: flex;
+    flex-direction: row !important;
+  }
       .aboutMePic img {
             border-radius: 50%;
             height: 200px;
@@ -252,6 +262,5 @@ hr {
         margin: 0px;
         padding-top: 0px;
       }
-  
       
     }
