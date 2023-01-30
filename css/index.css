@@ -26,6 +26,13 @@ nav a {
 }
 .herogrid {
     padding: 50px;
+    
+    background-size: cover;
+    height: 400px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    
 }
 
 .heading {
@@ -85,9 +92,8 @@ h1{
 }
 
 p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Source Serif Pro', serif;
+   font-weight: 600;
 }
 
 .navbar-toggler-icon {
@@ -105,15 +111,7 @@ p {
     border-color: black;
   }  
 
-  #profilePic img {
-    border-radius: 50%;
-    height: 300px;
-    width: auto;
-    float: right;
-    padding: 5px;
-    margin: 20px;
-    box-shadow: 0 0 15px var(--siteColor); 
-  }
+
   
 .blueText {
     color: rgb(65, 110, 235);
@@ -132,10 +130,6 @@ p {
     padding: 10px;
     background-color: rgb(229, 234, 241);
 }
-
-.progress-bar {
-    background-color: #18191a;
-  }
 
   .skills img {
     width: 100px;
@@ -156,10 +150,14 @@ p {
     padding: 10px;
     margin: 5px;
     color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
   }
 .aboutmeP h2 {
     color: white;
     text-decoration:underline 2px solid var(--siteColor);
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
 }
   
   .about {
@@ -168,6 +166,8 @@ p {
     background-color: #282829;
     margin: 100px;
     padding: 80px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
   }
   .contact {
     text-align: center;
@@ -211,16 +211,7 @@ hr {
  /* media queries */ 
 
 @media only screen and (max-width: 789px) {
-    .heading {
-        font-family: monospace;
-        overflow: hidden;
-        border-right: .15em solid var(--siteColor);
-        white-space: pre-wrap;
-        margin: 0 auto;
-        letter-spacing: .15em;
-        animation: typing 3.5s steps(30, end),
-        blink-caret .5s step-end infinite;
-    }
+    
     @keyframes typing {
         from { width: 0 }
         to { width: 100% }
@@ -256,11 +247,8 @@ hr {
             padding: 1px;
             color: white;
       }
-      #profilePic {
-        display: none;
-        justify-content: center;
-        margin: 0px;
-        padding-top: 0px;
+      .herogrid {
+        height: auto !important;
       }
-      
+     
     }
