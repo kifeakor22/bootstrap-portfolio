@@ -41,6 +41,7 @@ nav a {
     border-right: solid var(--siteColor); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    width: fit-content;
     letter-spacing: .15em;
     animation: typing 4.5s steps(30,end),
     blink-caret .5s step-end infinite;
@@ -52,6 +53,7 @@ nav a {
     from { width: 0 }
     to { width: 100% }
   }
+    
   
   /* The typewriter cursor effect */
   @keyframes blink-caret {
@@ -121,7 +123,7 @@ p {
 }
 
 
-.skillsbody {
+.skillsCard {
     margin: 5px;
     padding: 10px;
 }
@@ -203,12 +205,15 @@ hr {
   }
 
   .skillsCard {
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center !important;
   }
 
  /* media queries */ 
+
+ 
 
 @media only screen and (max-width: 789px) {
     
@@ -216,10 +221,12 @@ hr {
         from { width: 0 }
         to { width: 100% }
       }
+      
      @keyframes blink-caret {
         from, to { border-color: transparent }
         50% { border-color: var(--siteColor) }
       } 
+      
       .about {
         display: flex;
         flex-direction: column-reverse;
@@ -229,10 +236,7 @@ hr {
         padding: 5px;
         text-align: center;
       }
-  .skillsCard {
-    display: flex;
-    flex-direction: row !important;
-  }
+ 
       .aboutMePic img {
             border-radius: 50%;
             height: 200px;
@@ -250,5 +254,18 @@ hr {
       .herogrid {
         height: auto !important;
       }
+                .heading h1 {
+                  font-size: 20px;
+                }
+        
+                @keyframes typing {
+                  from {
+                    width: 0
+                  }
+        
+                  to {
+                    width: 80%
+                  }
+                }
      
     }
