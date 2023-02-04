@@ -37,7 +37,6 @@ nav a {
 }
 
 .heading {
-  text-shadow: 0 0 15px var(--siteColor);
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: solid var(--siteColor); /* The typwriter cursor */
@@ -257,22 +256,15 @@ hr {
         height: auto !important;
         display: flex !important;
       }
-                .heading h1 {
-                  font-size: 28px;
-                  text-shadow: 0 0 15px var(--siteColor);
-                  }
-                  
-                  
-                }
-        
-                @keyframes typing {
-                  from {
-                    width: 0
-                  }
-        
-                  to {
-                    width: 100%
-                  }
-                }
-     
+      .heading h1 {
+        font-size: 25px;
+      }
+      @keyframes typing {
+        from {
+          width: 0
+        }
+        to {
+          width: 100%
+        }
+      }
     }
