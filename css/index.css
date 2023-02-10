@@ -80,6 +80,11 @@ h1{
     margin-bottom: 40px;
 }
 
+.cardContainer a {
+  margin: 5px;
+
+}
+
 
 .card {
     color: black;
